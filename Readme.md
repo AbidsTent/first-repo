@@ -1,0 +1,1 @@
+This repo is created as practice. I am doing "Python For Everybody" course. And will be adding practices here

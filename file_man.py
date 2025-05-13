@@ -20,7 +20,7 @@ for line in fh:
         continue
     #print(line)
     count+=1
-    line = line.split(" ")
+    line = line.split()
     num = line[1]
     #print(num)
     addr+=float(num)

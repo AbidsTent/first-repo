@@ -12,6 +12,6 @@ for line in fh:
     line= line.rstrip().split()
     hr=line[5].split(":")[0]
     dix[hr]=dix.get(hr,0)+1
-print(dix)
+#print(dix)
 for kei,val in sorted([(k,v) for k,v in dix.items()]):
     print(kei,val)
